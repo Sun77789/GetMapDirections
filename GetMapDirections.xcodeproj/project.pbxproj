@@ -14,6 +14,10 @@
 		A4F3A1291B76C9770055555F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A4F3A1281B76C9770055555F /* Images.xcassets */; };
 		A4F3A12C1B76C9770055555F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A4F3A12A1B76C9770055555F /* LaunchScreen.xib */; };
 		A4F3A1381B76C9770055555F /* GetMapDirectionsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A4F3A1371B76C9770055555F /* GetMapDirectionsTests.m */; };
+		A4F3A1421B76C9BF0055555F /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4F3A1411B76C9BF0055555F /* MapKit.framework */; };
+		A4F3A1441B76C9C40055555F /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4F3A1431B76C9C40055555F /* CoreLocation.framework */; };
+		A4F3A1461B76C9CC0055555F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4F3A1451B76C9CC0055555F /* CoreGraphics.framework */; };
+		A4F3A1481B76C9D50055555F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4F3A1471B76C9D50055555F /* UIKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +44,10 @@
 		A4F3A1311B76C9770055555F /* GetMapDirectionsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GetMapDirectionsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4F3A1361B76C9770055555F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A4F3A1371B76C9770055555F /* GetMapDirectionsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GetMapDirectionsTests.m; sourceTree = "<group>"; };
+		A4F3A1411B76C9BF0055555F /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		A4F3A1431B76C9C40055555F /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		A4F3A1451B76C9CC0055555F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A4F3A1471B76C9D50055555F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +55,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A4F3A1421B76C9BF0055555F /* MapKit.framework in Frameworks */,
+				A4F3A1461B76C9CC0055555F /* CoreGraphics.framework in Frameworks */,
+				A4F3A1481B76C9D50055555F /* UIKit.framework in Frameworks */,
+				A4F3A1441B76C9C40055555F /* CoreLocation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +75,10 @@
 		A4F3A10F1B76C9770055555F = {
 			isa = PBXGroup;
 			children = (
+				A4F3A1471B76C9D50055555F /* UIKit.framework */,
+				A4F3A1451B76C9CC0055555F /* CoreGraphics.framework */,
+				A4F3A1431B76C9C40055555F /* CoreLocation.framework */,
+				A4F3A1411B76C9BF0055555F /* MapKit.framework */,
 				A4F3A11A1B76C9770055555F /* GetMapDirections */,
 				A4F3A1341B76C9770055555F /* GetMapDirectionsTests */,
 				A4F3A1191B76C9770055555F /* Products */,
@@ -168,6 +184,7 @@
 				TargetAttributes = {
 					A4F3A1171B76C9770055555F = {
 						CreatedOnToolsVersion = 6.2;
+						DevelopmentTeam = 53FPNQK53L;
 					};
 					A4F3A1301B76C9770055555F = {
 						CreatedOnToolsVersion = 6.2;
@@ -343,6 +360,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = GetMapDirections/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -353,6 +371,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = GetMapDirections/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
