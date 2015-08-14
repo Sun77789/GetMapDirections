@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>C78D71D0-1FCD-465F-99F3-F711531D3F23</string>
+	<key>IDESourceControlProjectName</key>
+	<string>GetMapDirections</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>CB62F92F9B1EABF1F60C9F3CE8430A9C6F6F7600</key>
+		<string>https://github.com/Sun77789/GetMapDirections.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>GetMapDirections.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>CB62F92F9B1EABF1F60C9F3CE8430A9C6F6F7600</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/Sun77789/GetMapDirections.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>CB62F92F9B1EABF1F60C9F3CE8430A9C6F6F7600</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>CB62F92F9B1EABF1F60C9F3CE8430A9C6F6F7600</string>
+			<key>IDESourceControlWCCName</key>
+			<string>GetMapDirections</string>
+		</dict>
+	</array>
+</dict>
+</plist>
